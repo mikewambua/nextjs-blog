@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.top {
+  display: flex;
+  gap: 30px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #d21a6644;
+}
+
+.desc {
+  color: #bbb;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.username {
+  color: #d21a6644;
+}
+
+.content {
+  margin-bottom: 50px;
+}
+
+.text {
+  color: #bbb;
+  font-size: 16px;
+  font-weight: 200;
+}
